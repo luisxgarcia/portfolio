@@ -51,7 +51,7 @@ function handleTouchEnd() {
 }
 
 let lastScrollTop = 0;
-window.addEventListener('scroll', function() {
+window.addEventListener('scroll', function () {
     let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
     if (scrollTop > lastScrollTop) {
         nav.style.top = '-60px'; // Oculta el menú al desplazarse hacia abajo
@@ -65,3 +65,25 @@ window.addEventListener('wheel', handleScroll);
 window.addEventListener('touchstart', handleTouchStart);
 window.addEventListener('touchmove', handleTouchMove);
 window.addEventListener('touchend', handleTouchEnd);
+
+// Manejo informacion JSON
+
+const jsondata = "datos.json";
+
+fetch(jsondata)
+    .then(response => response.json())
+    .then(data => {
+        const nameShort = data["name-short"];
+        const area = data["area"];
+        let description = data["description"];
+
+        description = description.replace(/\n/g, '<br>');
+
+        document.getElementById("name-short").innerHTML = nameShort;
+        document.getElementById("area").innerHTML = area;
+        document.getElementById("description").innerHTML = description;
+    })
+    .catch(error => {
+        console.error('Error al cargar el archivo JSON:', error);
+    });
+
