@@ -5,7 +5,7 @@
     "email": "luis15fer08@gmail.com",
     "area": "Desarrollador Web",
     "description": "Soy una persona que disfruta aceptar\ndesafíos que me permiten explorar,\nconocer y demostrar mi capacidad\npara lograr resultados excepcionales.\nMe apasiona el desarrollo web, pero\nestoy abierto a explorar otras áreas.",
-    "aboutme": "Soy egresado de la carrera de Ingeniería en\nDesarrollo y Gestión de Software, de la Universidad Tecnológica de Tulancingo (UTEC Tulancingo).\nEn la misma universidad obtuve el TSU de Tecnologías de la Información y la Comunicación:\narea Desarrollo de Software Multiplataforma y en el bachillerato y secundaria lleve la especialidad de Informática.\nHe tenido la oportunidad de trabajar en empresas como TerraMaps e IDS Comercial,\nen las cuales he podido desarrollar nuevos conocimientos y habilidades en el desarrollo de software.",
+    "aboutme": "Soy egresado de la carrera de Ingeniería en Desarrollo y Gestión de Software, de la Universidad Tecnológica \nde Tulancingo.En la misma universidad obtuve el TSU de Tecnologías de la Información y la Comunicación:\nDesarrollo de Software Multiplataforma y en el bachillerato y secundaria lleve la especialidad de Informática.\nHe tenido la oportunidad de trabajar en empresas como TerraMaps e IDS Comercial,en las cuales he podido\ndesarrollar nuevos conocimientos y habilidades en el desarrollo de software.",
     "characteristics": "Me considero una persona responsable, honesta, proactiva, autodidacta, con facilidad para trabajar en equipo,\ncon capacidad de análisis y resolución de problemas, con facilidad para aprender y adaptarme a nuevas tecnologías y entornos de trabajo.",
     "extra":"Durante mi tiempo libre me gusta hablar con mis amigos, pasar tiempo con mi familia,\njugar videojuegos, ver videos en YouTube, escuchar música y aprender cosas nuevas.\nActualmente me encuentro aprendiendo en areas como el desarrollo de aplicaciones móviles,\nla programación en lenguajes como Python, JavaScript y Java, y bases de datos.",
     "technologies": [
@@ -59,9 +59,7 @@
             "name": "MathSoccer",
             "description": "Este juego fue desarrollado en B4A (Basic for Android) y consiste en resolver problemas matemáticos\nde mayor o menor, para poder anotar goles y ganar el partido. Cada gol anotado es un punto y\ncada respuesta incorrecta son -2 puntos. Este proyecto fue desarrollado en 2 meses.",
             "technologies": [
-                "HTML",
-                "CSS",
-                "JavaScript"
+                "B4A"
             ]
         }
     ]
