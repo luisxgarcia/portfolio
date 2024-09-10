@@ -35,121 +35,32 @@ nav ul li a {
 .section {
     display: flex;
     flex-direction: column;
-    /* Asegura que los elementos se apilen verticalmente */
     justify-content: center;
     align-items: center;
     height: 100vh;
     width: 100%;
-    /* Asegura que cada sección ocupe el 100% del ancho de la pantalla */
     box-sizing: border-box;
-    /* Incluye el padding y border en el tamaño del elemento */
 }
 
 .welcome {
     background: #f8b400;
     flex-direction: row;
 }
-
+.welcome-text h1, #area{
+    text-align: center;
+}
+#description{
+    text-align: justify;
+}
 .profile-image img {
     max-width: 100%;
-    /* Asegura que la imagen no se desborde del contenedor */
     height: 300px;
     border-radius: 50%;
-    margin-right: 40px;
+    margin: 20px;
 }
 
 .aboutme {
     background: #4caf50;
-}
-
-.timeline {
-    white-space: nowrap;
-    overflow-x: hidden;
-}
-
-.timeline ol {
-    font-size: 0;
-    width: 100vw;
-    padding: 250px 0;
-}
-
-.timeline ol li {
-    position: relative;
-    display: inline-block;
-    list-style-type: none;
-    width: 150px;
-    height: 3px;
-    background: #fff;
-}
-
-.timeline ol li:last-child {
-    width: 280px;
-}
-
-.timeline ol li:not(:first-child) {
-    margin-left: 14px;
-}
-
-.timeline ol li:not(:last-child)::after {
-    content: '';
-    position: absolute;
-    top: 50%;
-    left: calc(100% + 1px);
-    bottom: 0;
-    width: 12px;
-    height: 12px;
-    transform: translateY(-50%);
-    border-radius: 50%;
-    background: #F45B69;
-}
-
-.timeline ol li div {
-    position: absolute;
-    left: calc(100% + 7px);
-    width: 280px;
-    padding: 15px;
-    font-size: 1rem;
-    white-space: normal;
-    color: black;
-    background: white;
-}
-
-.timeline ol li div::before {
-    content: '';
-    position: absolute;
-    top: 100%;
-    left: 0;
-    width: 0;
-    height: 0;
-    border-style: solid;
-}
-
-.timeline ol li:nth-child(odd) div {
-    top: -16px;
-    transform: translateY(-100%);
-}
-
-.timeline ol li:nth-child(odd) div::before {
-    top: 100%;
-    border-width: 8px 8px 0 0;
-    border-color: white transparent transparent transparent;
-}
-
-.timeline ol li:nth-child(even) div {
-    top: calc(100% + 16px);
-}
-
-.timeline ol li:nth-child(even) div::before {
-    top: -8px;
-    border-width: 8px 0 0 8px;
-    border-color: transparent transparent transparent white;
-}
-
-.timeline time {
-    display: block;
-    font-size: 1.2rem;
-    font-weight: bold;
-    margin-bottom: 8px;
 }
 
 .div-aboutme {
@@ -258,5 +169,45 @@ nav ul li a {
 @media (max-width: 768px) {
     nav {
         display: none;
+    }
+    .section{
+        flex-direction: column;
+        height: auto;
+    }
+    .welcome{
+        flex-direction: column;
+        align-items: center;
+    }
+    .aboutme{
+        flex-direction: column;
+    }
+
+    .aboutme div{
+        margin: 10px;
+    }
+    .div-aboutme{
+        flex-direction: column;
+        margin: 0;
+    }
+    .technologies, .projects{
+        height: auto;
+    }
+    #technologies{
+        flex-direction: column;
+        align-items: center;
+    }
+    #projects{
+        flex-direction: column;
+        align-items: center;
+    }
+    .card-proj{
+        width: 80%;
+        height: auto;
+        margin: 20px;
+    }
+
+    .card-proj img{
+        align-items: center;
+        height: 100px;
     }
 }

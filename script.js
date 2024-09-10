@@ -78,6 +78,7 @@ fetch(jsondata)
         let description = data["description"];
         let aboutme = data["aboutme"];
         let characteristics = data["characteristics"];
+        let cursos = data["cursos"];
         let extra = data["extra"];
         const technologies = data["technologies"];
         const projects = data["projects"];
@@ -91,8 +92,12 @@ fetch(jsondata)
         document.getElementById("area").innerHTML = area;
         document.getElementById("description").innerHTML = description;
         document.getElementById("about-me").innerHTML = aboutme;
-        document.getElementById("characteristics").innerHTML = characteristics;
-        document.getElementById("extra").innerHTML = extra;
+        document.getElementById("characteristics").innerHTML = "<h3>Características</h3>" + characteristics + "<br>" + "<h3>Cursos</h3>";
+        document.getElementById("extra").innerHTML = "<h3>Algo mas...</h3>" + extra;
+
+        for (let i = 0; i < cursos.length; i++) {
+            document.getElementById("characteristics").innerHTML += "<b>" + cursos[i].name + "</b> " + " <br> " + cursos[i].description + "<br> <br>";
+        }
 
         for (let i = 0; i < technologies.length; i++) {
             document.getElementById("technologies").innerHTML += "<div class=card>" + "<div><img src=./img/" + technologies[i].name + ".png /><div>" +technologies[i].name + " - " + technologies[i].level + "</div>";
