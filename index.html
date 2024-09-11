@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <title>Luis Garcia</title>
 </head>
 
@@ -13,30 +14,38 @@
     <nav>
         <ul>
             <li><a href="#presentacion">Inicio</a></li>
-            <li><a href="#aboutme">Sobre mi</a></li>
             <li><a href="#tecnologias">Tecnologías</a></li>
             <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#aboutme">Sobre mi</a></li>
         </ul>
     </nav>
     <div class="section welcome" id="presentacion">
         <div class="profile-image">
-            <img src="https://media.vogue.mx/photos/654fb288625eff53c8632e28/1:1/w_2000,h_2000,c_limit/taylor-swift-en-argentina.jpg"
+            <img src="./img/imagen.jpeg"
                 alt="Luis Garcia">
         </div>
         <div class="welcome-text">
             <h1 id="name-short"></h1>
             <p id="area"></p>
-            <p id="description">
-            </p>
-        </div>
-    </div>
-    <div class="section aboutme" id="aboutme">
-        <h2>Sobre mi</h2>
-        <div id="about-me"></div>
-        <div class="div-aboutme">
-          <div id="characteristics">
-          </div>
-          <div id="extra"></div>
+            <p id="description"></p>
+            <div id="trigger">
+                <div id="github">
+                    <i class="bi bi-github"></i>
+                    Github
+                </div>
+                <div id="mail">
+                    <i class="bi bi-envelope"></i>
+                    Correo
+                </div>
+                <div id="linkedin">
+                    <i class="bi bi-linkedin"></i>
+                    LinkedIn
+                </div>
+            </div>
+            <div id="overlay">
+                <div id="close"><i class="bi bi-x-circle-fill"></i></div>
+                <div id="text"></div>
+            </div>
         </div>
     </div>
     <div class="section technologies-projects">
@@ -47,6 +56,16 @@
         <div class="projects" id="proyectos">
             <h2>Proyectos</h2>
             <div id="projects"></div>
+        </div>
+    </div>
+    <div class="section aboutme" id="aboutme">
+        <h2>Sobre mi</h2>
+        <div class="about-me">
+            <div id="school"><h3>Formacion Academica</h3></div>
+            <div id="jobs"><h3>Trabajo</h3></div>
+            <div id="characteristics"><h3>Habilidades</h3>Habilidades</div>
+            <div id="courses"><h3>Cursos</h3></div>
+            <div id="extra"></div>
         </div>
     </div>
     <script src="./script.js"></script>

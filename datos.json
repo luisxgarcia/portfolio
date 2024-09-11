@@ -2,48 +2,73 @@
     "name": "Luis Fernando Garcia Garcia",
     "name-short": "Luis Garcia",
     "age": 22,
-    "email": "luis15fer08@gmail.com",
+    "contact": [
+        {
+            "type": "email",
+            "value": "luis15fer08@gmail.com"
+        },
+        {
+            "type": "linkedin",
+            "value": "https://www.linkedin.com/in/luis-fernando-garcia-garcia-507646274/"
+        },
+        {
+            "type": "github-personal",
+            "value": "https://github.com/luisxgarcia"
+        },
+        {
+            "type": "github-edu",
+            "value": "https://github.com/luisgar289"
+        }
+    ],
     "area": "Desarrollador Web",
-    "description": "Soy una persona que disfruta aceptar\ndesafíos que me permiten explorar,\nconocer y demostrar mi capacidad\npara lograr resultados excepcionales.\nMe apasiona el desarrollo web, pero\nestoy abierto a explorar otras áreas.",
-    "aboutme": "Soy egresado de la carrera de Ingeniería en Desarrollo y Gestión de Software, de la Universidad Tecnológica \nde Tulancingo.En la misma universidad obtuve el TSU de Tecnologías de la Información y la Comunicación:\nDesarrollo de Software Multiplataforma y en el bachillerato y secundaria lleve la especialidad de Informática.\nHe tenido la oportunidad de trabajar en empresas como TerraMaps e IDS Comercial,en las cuales he podido\ndesarrollar nuevos conocimientos y habilidades en el desarrollo de software.",
-    "characteristics": "Me considero una persona responsable, honesta, proactiva, autodidacta, con facilidad para trabajar en equipo,\ncon capacidad de análisis y resolución de problemas, con facilidad para aprender y adaptarme a nuevas tecnologías y entornos de trabajo.",
+    "description": "Aceptar desafíos\nExplorar, conocer y demostrar su potencial\nLograr resultados excepcionales\nApasionado por el desarrollo web\nAbierto a explorar otras áreas",
+    "aboutme": "Egresado de la carrera de Ingeniería en Desarrollo y Gestión de Software, de la Universidad Tecnológica de Tulancingo.\n Ademas del TSU de Tecnologías de la Información y la Comunicación: Desarrollo de Software Multiplataforma.\nEn el bachillerato y secundaria curse la especialidad de Informática, como taller y capacitación para trabajar.\nTrabaje en empresas como TerraMaps e IDS Comercial,en las cuales aplique mis conocimientos y desarrolle nuevos.",
+    "school":[
+        "Universidad Tecnológica de Tulancingo",
+        "COBAEH Plantel Tulancingo"
+    ],
+    "jobs":[
+        "TerraMaps",
+        "IDS Comercial"
+    ],
+    "characteristics": "<br> Responsable <br>Honesto <br>Proactivo <br>Autodidacta <br>Trabajo en equipo",
     "cursos":[
         {
             "name": "Curso de Java",
-            "description": "Curso tomado en la aplicacion de Platzi, donde aprendi fundamentos, POO, manejo de base de datos y Spring Boot."
+            "description": "Curso tomado en la aplicación de Platzi, donde aprendió fundamentos, POO, manejo de base de datos y Spring Boot."
         },
         {
             "name": "Curso de JavaScript",
-            "description": "Curso de Platzi durante el cual aprendi sobre librerias, frameworks, asincronismo y APIs."
+            "description": "Curso de Platzi durante el cual aprendió sobre librerías, frameworks, asincronismo y APIs."
         }
     ],
-    "extra":"Durante mi tiempo libre me gusta hablar con mis amigos, pasar tiempo con mi familia,\njugar videojuegos, ver videos en YouTube, escuchar música y aprender cosas nuevas.\nActualmente me encuentro aprendiendo en areas como el desarrollo de aplicaciones móviles,\nla programación en lenguajes como Python, JavaScript y Java, y bases de datos.",
+    "extra":"Fuera del trabajo me gusta estar con mi familia, hablar con mis amigos, salir al cine o a comer. <br>De igual manera disfruto escuchar música, pasar tiempo en YouTube y jugar videojuegos.<br>Me gusta aprender cosas nuevas, por lo que siempre estoy investigando y leyendo sobre temas de mi interés.",
     "technologies": [
         {
             "name": "HTML",
-            "level": "80%"
+            "level": "Intermedio"
         },
         {
             "name": "CSS",
-            "level": "70%"
+            "level": "Intermedio"
         },
         {
             "name": "JavaScript",
-            "level": "40%"
+            "level": "Intermedio Bajo"
         },
         {
             "name": "Python",
-            "level": "60%"
+            "level": "Intermedio"
         },
         {
             "name": "Java",
-            "level": "20%"
+            "level": "Bajo"
         }
     ],
     "projects": [
         {
             "name": "SIENAPA",
-            "description": "Fue un proyecto escolar el cual permite encender y apagar pozos de agua de manera remota,\nprogramar horarios, generar reportar a través de una aplicación web y una aplicación móvil.\nEste proyecto fue desarrollado en 8 meses.",
+            "description": "Fue un proyecto escolar que permite encender y apagar pozos de agua de manera remota,\nprogramar horarios, generar reportes a través de una aplicación web y una aplicación móvil.\nEste proyecto fue desarrollado en 8 meses.",
             "technologies": [
                 "HTML",
                 "CSS",
@@ -54,7 +79,9 @@
                 "Flutter",
                 "Dart",
                 "Arduino"
-            ]
+            ],
+            "url": "https://www.youtube.com/watch?v=3tmd-ClpJxA",
+            "github": "https://github.com/AdriLeon/SIENAPA-2.0"
         },
         {
             "name": "Desenigma",
@@ -63,14 +90,18 @@
                 "HTML",
                 "CSS",
                 "JavaScript"
-            ]
+            ],
+            "url": "https://www.youtube.com/watch?v=3tmd-ClpJxA",
+            "github": "https://github.com/AdriLeon/SIENAPA-2.0"
         },
         {
             "name": "MathSoccer",
             "description": "Este juego fue desarrollado en B4A (Basic for Android) y consiste en resolver problemas matemáticos\nde mayor o menor, para poder anotar goles y ganar el partido. Cada gol anotado es un punto y\ncada respuesta incorrecta son -2 puntos. Este proyecto fue desarrollado en 2 meses.",
             "technologies": [
                 "B4A"
-            ]
+            ],
+            "url": "https://www.youtube.com/watch?v=3tmd-ClpJxA",
+            "github": "https://github.com/AdriLeon/SIENAPA-2.0"
         }
     ]
 }
