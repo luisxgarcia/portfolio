@@ -108,8 +108,8 @@ fetch(jsondata)
                         <br>
                     </div>
                     <div class="buttons">
-                            <button><i class="bi bi-youtube"> <a href="${projects[i].url}" target="_blank">Demo</a></i></button>
-                            <button><i class="bi bi-github"> <a href="${projects[i].github}" target="_blank">Código</a></i></button>
+                            <a href="${projects[i].url}" target= _blank><button><i class="bi bi-play-fill">Demo</i></button></a>
+                            <a href="${projects[i].github}" target= _blank><button><i class="bi bi-github">Código</i></button></a>
                         </div>
                 </div>
                 
